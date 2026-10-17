@@ -1,3 +1,0 @@
-<!-- ERRORE: la dichiarazione XML deve essere la PRIMISSIMA cosa del file, nemmeno un commento può precederla -->
-<?xml version="1.0" encoding="UTF-8"?>
-<server name="ArenaCraft"/>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- ERRORE: < e & non possono comparire "nudi" nel testo: servono &lt; e &amp; -->
-<log>
-  <message>Utenti con livello < 10 & ping > 200 ms espulsi</message>
-</log>
