@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE server SYSTEM "minecraft.dtd">
+<!-- Questo file è CORRETTO: la tua minecraft.dtd deve ACCETTARLO -->
+<server name="SurvivalCraft" port="25565">
+  <motd>Benvenuti su SurvivalCraft!</motd>
+  <world type="default" difficulty="hard" seed="987654321"/>
+  <rules pvp="true" hardcore="false" maxPlayers="20"/>
+  <whitelist enabled="true">
+    <player id="p1">Steve</player>
+    <player id="p2">Alex</player>
+    <player id="p3">Herobrine</player>
+  </whitelist>
+  <ops>
+    <op player="p1" level="4"/>
+    <op player="p2" level="2"/>
+  </ops>
+  <mods>
+    <mod>Optifine</mod>
+    <mod>Journeymap</mod>
+  </mods>
+</server>

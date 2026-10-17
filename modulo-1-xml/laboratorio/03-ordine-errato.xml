@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Questo file è SBAGLIATO: il tuo ordine.xsd deve RIFIUTARLO (almeno 7 errori di tipo) -->
+<ordine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ordine.xsd"
+        id="ORD-42" data="17-10-2026">
+  <cliente>
+    <nome>Giulia Rossi</nome>
+    <email>giulia.rossi</email>
+  </cliente>
+  <articoli>
+    <articolo sku="1001" quantita="0">
+      <descrizione>Cuffie Gaming RGB</descrizione>
+      <prezzo valuta="YEN">-59.90</prezzo>
+    </articolo>
+  </articoli>
+  <spedizione>drone</spedizione>
+</ordine>

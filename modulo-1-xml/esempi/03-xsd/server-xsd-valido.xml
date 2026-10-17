@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameServer xmlns="https://tpsit.example.org/gameserver"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://tpsit.example.org/gameserver game-server.xsd"
+            name="ArenaCraft EU-1" version="2.4.1" region="EU">
+
+  <motd>Benvenuto su ArenaCraft!</motd>
+
+  <network>
+    <ip>192.168.1.10</ip>
+    <port>25565</port>
+    <maxPlayers>100</maxPlayers>
+  </network>
+
+  <gameMode>survival</gameMode>
+
+  <plugins>
+    <plugin enabled="true">AntiCheat</plugin>
+    <plugin>EconomyPlus</plugin>
+    <plugin enabled="false">DebugTools</plugin>
+  </plugins>
+
+  <players>
+    <player id="P001" role="admin">
+      <nickname>DragonSlayer</nickname>
+      <level>87</level>
+      <joined>2025-03-14</joined>
+    </player>
+    <player id="P002" role="moderator">
+      <nickname>PixelQueen</nickname>
+      <level>64</level>
+      <joined>2025-06-02</joined>
+    </player>
+    <player id="P003">
+      <nickname>NoobMaster69</nickname>
+      <level>3</level>
+    </player>
+    <player id="P004">
+      <nickname>SpeedHacker</nickname>
+      <level>12</level>
+      <joined>2026-09-30</joined>
+    </player>
+  </players>
+
+  <bans>
+    <ban player="P004" by="P001" date="2026-10-16T21:30:00">
+      <reason>Uso di cheat (speedhack)</reason>
+    </ban>
+  </bans>
+
+</gameServer>

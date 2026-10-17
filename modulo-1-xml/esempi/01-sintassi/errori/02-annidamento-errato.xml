@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERRORE: i tag si chiudono in ordine sbagliato (</entry> prima di </message>) -->
+<log>
+  <entry><message>Server avviato</entry></message>
+</log>
